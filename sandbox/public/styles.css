@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #f5ba13;
+  margin: 0;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.myform textarea {
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+  border-color: white;
+  width: 400px;
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  resize: none;
+}
+
+.myform {
+  border-radius: 7px;
+  font-size: 20px;
+  background: white;
+  padding: 20px;
+  margin: 30px;
+  height: 150px;
+  width: 490px;
+  text-align: left;
+  box-shadow: 0 2px 5px #ccc;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+form span {
+  font-size: 30px;
+  color: blue;
+}
+
+.myform button {
+  color: white;
+  left: 80%;
+  margin-top: 10px;
+  float: center;
+  background: #f5ba13;
+  border-radius: 100%;
+  border-color: #f5ba13;
+  padding: 10px;
+  position: absolute;
+}
+ul {
+  width: 230px;
+  height: 100px;
+  float: left;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 3%;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  margin-top: 250px;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+button {
+  float: right;
+  margin-right: 10px;
+  bottom: 10px;
+}
